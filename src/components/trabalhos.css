@@ -1,0 +1,45 @@
+.trabalho h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 250px;
+    font-size: 3.5em;
+    font-family: "Mr Dafoe", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #c8ae6a;
+  }
+  
+  .trabalho p {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .trabalhoFoto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Espaçamento entre as imagens */
+  }
+  
+  .trabalhoFoto img {
+    width: calc(
+      33.333% - 20px
+    ); /* Largura de cada imagem (33.333% de três colunas menos o espaço de gap) */
+    max-width: 500px; /* Tamanho máximo de cada imagem */
+    height: auto;
+    flex: 1 0 calc(33.333% - 20px); /* Garantir que as imagens ocupem 33.333% do espaço disponível */
+    box-sizing: border-box; /* Incluir padding e border no cálculo da largura e altura */
+  }
+
+  .parallax {
+    background-image: url('../img/faceback.jpg'); /* Replace with your image */
+    height: 500px; /* Adjust the height as needed */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 150px;
+    
+  }

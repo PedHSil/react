@@ -1,0 +1,59 @@
+main {
+    background-color: #111111;
+    color: white;
+  }
+  
+  /* Estilo do contêiner pai */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* O contêiner pai ocupa a altura total da tela */
+  }
+  
+  .tatuador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tatuadorHist {
+    display: grid;
+    grid-template-columns: auto 1fr; /* A imagem ocupa o espaço automático e o texto ocupa o restante */
+    gap: 1rem; /* Espaçamento entre a imagem e o texto */
+    width: 50%;
+  }
+  
+  .tatuadorHist h2 {
+    padding: 35px;
+    padding-top: 15px;
+    font-family: "Allura", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.6em;
+  }
+  
+  .tatuadorHist img {
+    max-width: 100%;
+    height: 950px;
+    grid-row: span 2; /* A imagem ocupa o espaço de duas linhas */
+  }
+  
+  .text-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .text-content h2 {
+    margin: 0;
+  }
+  
+  .text-content p {
+    margin: 0;
+  }
+  
+  .text {
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 60px;
+  }

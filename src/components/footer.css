@@ -1,0 +1,16 @@
+footer {
+    background-color: #111111;
+    color: white;
+  }
+  
+  footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer .midia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

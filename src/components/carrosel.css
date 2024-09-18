@@ -1,0 +1,48 @@
+.carousel img {
+    width: 60%;
+    height: 1100px;
+    margin: 0 auto;
+  }
+  
+  .carousel-caption {
+    text-align: left !important;
+    left: 0 !important;
+    right: auto !important;
+    margin-left: 90px !important; /* Ajuste conforme necessário */
+    width: 500px;
+    margin-bottom: 270px;
+    font-size: 1.6em;
+  }
+  
+  .carousel-caption h5 {
+    font-size: 1.8em;
+    color: #c8ae6a;
+  }
+  
+  .carousel-caption button {
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #c8ae6a;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .carousel-caption button a {
+    color: #c8ae6a;
+    text-decoration: none;
+  }
+  
+  .carousel-caption button:hover {
+    background-color: #333; /* Cor mais clara para o efeito de hover */
+    transform: scale(1.05); /* Leve aumento no tamanho para um efeito de clique */
+  }
+  
+  .carousel-caption button:focus {
+    outline: none; /* Remove o contorno padrão do navegador */
+    box-shadow: 0 0 0 2px #c8ae6a; /* Adiciona uma sombra ao redor para indicar foco */
+  }
